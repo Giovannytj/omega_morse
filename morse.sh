@@ -3,7 +3,7 @@
 # buscar el nombre del dispositivo en el nombre de la variable
 
 . /lib/ramips.sh
-$tabla=$(ramips_board_name)
+tabla=$(ramips_board_name)
 
 _MorseMain () {
         echo morse > /sys/class/leds/$tabla\:amber\:system/trigger
